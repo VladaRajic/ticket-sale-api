@@ -1,3 +1,7 @@
+## Note 
+I added token param in POST /api/events/{event_id}/purchase endpoint because of testing failed transaction.
+Valid token is in the example, if you want invalid token just put random string.
+
 ## Ticket Sale System - Modular Monolith
 
 This repository serves as a test for hiring PHP/Laravel developers. The goal is to implement a ticket sale system using a modular monolith architecture in Laravel. Authentication logic is not required to be implemented. The system manages venues, events, and ticket sales, with a focus on modular design to facilitate easy maintenance and scalability.
