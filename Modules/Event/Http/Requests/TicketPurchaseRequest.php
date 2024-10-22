@@ -14,7 +14,10 @@ class TicketPurchaseRequest extends FormRequest
         return [
             self::EMAIL => [
                 'required'
-            ]
+            ],
+            self::TOKEN => [
+                'required'
+            ],
         ];
     }
 
