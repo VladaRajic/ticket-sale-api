@@ -55,7 +55,8 @@ Example of a Successful Response:
     - Request Body:
         ```json
         {
-            "email": ""
+            "email": "",
+            "token": "05866cd8-7877-4830-bb9e-e39286cf3a28"
         }
         ```
     - Successful Response (200):
